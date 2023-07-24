@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+// import SimpleForm from './forms/simpleForm';
+// import OldForm from './forms/oldform';
+// import Reuseable from './forms/component/reusable'
+// import Login from './forms/component/login'
+import RegistrationForm from './forms/component/regestration'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <SimpleForm/> */}
+      {/* <OldForm/> */}
+      {/* <Reuseable/> */}
+      {/* <Login /> */}
+      <RegistrationForm />
     </div>
   );
 }
